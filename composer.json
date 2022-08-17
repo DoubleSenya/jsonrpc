@@ -23,7 +23,8 @@
     "ext-json": "*",
     "ext-pdo": "*",
     "phphleb/framework": ">=1.6.64",
-    "phphleb/debugpan": "1.*"
+    "phphleb/debugpan": "1.*",
+    "evilscott/junior": "^1.1"
   },
   "autoload": {
     "classmap": [

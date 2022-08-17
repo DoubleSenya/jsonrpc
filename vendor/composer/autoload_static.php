@@ -36,6 +36,16 @@ class ComposerStaticInit9550ec32ff8c9f4af9c3ed6ff3e0d9ec
         ),
     );
 
+    public static $prefixesPsr0 = array (
+        'J' => 
+        array (
+            'Junior' => 
+            array (
+                0 => __DIR__ . '/..' . '/evilscott/junior/src',
+            ),
+        ),
+    );
+
     public static $classMap = array (
         'App\\Commands\\DefaultTask' => __DIR__ . '/../..' . '/app/Commands/DefaultTask.php',
         'App\\Commands\\RotateLogsTask' => __DIR__ . '/../..' . '/app/Commands/RotateLogsTask.php',
@@ -142,6 +152,13 @@ class ComposerStaticInit9550ec32ff8c9f4af9c3ed6ff3e0d9ec
         'Hleb\\Scheme\\Home\\Main\\Connector' => __DIR__ . '/..' . '/phphleb/framework/Scheme/Home/Main/Connector.php',
         'Hleb\\Scheme\\Home\\Main\\DBInterface' => __DIR__ . '/..' . '/phphleb/framework/Scheme/Home/Main/DBInterface.php',
         'Hleb\\Scheme\\Home\\Main\\LoggerInterface' => __DIR__ . '/..' . '/phphleb/framework/Scheme/Home/Main/LoggerInterface.php',
+        'Junior\\Client' => __DIR__ . '/..' . '/evilscott/junior/src/Junior/Client.php',
+        'Junior\\Clientside\\Exception' => __DIR__ . '/..' . '/evilscott/junior/src/Junior/Clientside/Exception.php',
+        'Junior\\Clientside\\Request' => __DIR__ . '/..' . '/evilscott/junior/src/Junior/Clientside/Request.php',
+        'Junior\\Clientside\\Response' => __DIR__ . '/..' . '/evilscott/junior/src/Junior/Clientside/Response.php',
+        'Junior\\Server' => __DIR__ . '/..' . '/evilscott/junior/src/Junior/Server.php',
+        'Junior\\Serverside\\Exception' => __DIR__ . '/..' . '/evilscott/junior/src/Junior/Serverside/Exception.php',
+        'Junior\\Serverside\\Request' => __DIR__ . '/..' . '/evilscott/junior/src/Junior/Serverside/Request.php',
         'Phphleb\\Debugpan\\DPanel' => __DIR__ . '/..' . '/phphleb/debugpan/DPanel.php',
     );
 
@@ -150,6 +167,7 @@ class ComposerStaticInit9550ec32ff8c9f4af9c3ed6ff3e0d9ec
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit9550ec32ff8c9f4af9c3ed6ff3e0d9ec::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit9550ec32ff8c9f4af9c3ed6ff3e0d9ec::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit9550ec32ff8c9f4af9c3ed6ff3e0d9ec::$prefixesPsr0;
             $loader->classMap = ComposerStaticInit9550ec32ff8c9f4af9c3ed6ff3e0d9ec::$classMap;
 
         }, null, ClassLoader::class);

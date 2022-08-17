@@ -111,5 +111,12 @@ return array(
     'Hleb\\Scheme\\Home\\Main\\Connector' => $vendorDir . '/phphleb/framework/Scheme/Home/Main/Connector.php',
     'Hleb\\Scheme\\Home\\Main\\DBInterface' => $vendorDir . '/phphleb/framework/Scheme/Home/Main/DBInterface.php',
     'Hleb\\Scheme\\Home\\Main\\LoggerInterface' => $vendorDir . '/phphleb/framework/Scheme/Home/Main/LoggerInterface.php',
+    'Junior\\Client' => $vendorDir . '/evilscott/junior/src/Junior/Client.php',
+    'Junior\\Clientside\\Exception' => $vendorDir . '/evilscott/junior/src/Junior/Clientside/Exception.php',
+    'Junior\\Clientside\\Request' => $vendorDir . '/evilscott/junior/src/Junior/Clientside/Request.php',
+    'Junior\\Clientside\\Response' => $vendorDir . '/evilscott/junior/src/Junior/Clientside/Response.php',
+    'Junior\\Server' => $vendorDir . '/evilscott/junior/src/Junior/Server.php',
+    'Junior\\Serverside\\Exception' => $vendorDir . '/evilscott/junior/src/Junior/Serverside/Exception.php',
+    'Junior\\Serverside\\Request' => $vendorDir . '/evilscott/junior/src/Junior/Serverside/Request.php',
     'Phphleb\\Debugpan\\DPanel' => $vendorDir . '/phphleb/debugpan/DPanel.php',
 );

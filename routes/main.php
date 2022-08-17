@@ -11,4 +11,5 @@
  */
 
 Route::get("/", view("default"));
+Route::prefix("/api")->get("/")->controller("AjaxController@index");
 

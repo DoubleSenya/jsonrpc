@@ -46,4 +46,24 @@
         <input id="time-input" readonly placeholder="Time">
     </div>
 </body>
+<script type="text/javascript">
+    window.onload = function() {
+        const request = new XMLHttpRequest();
+
+        const url = "/api/";
+
+        request.open('GET', url);
+
+        request.setRequestHeader('Content-Type', 'application/json');
+
+        request.addEventListener("readystatechange", () => {
+            
+            /*if (request.readyState === 4 && request.status === 200) {
+            console.log( request.responseText );
+            }*/
+        });
+
+        request.send();
+    };
+</script>
 </html>

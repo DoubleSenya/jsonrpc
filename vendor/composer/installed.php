@@ -1,8 +1,8 @@
 <?php return array(
     'root' => array(
         'name' => 'phphleb/hleb',
-        'pretty_version' => 'v1.6.69',
-        'version' => '1.6.69.0',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
         'reference' => NULL,
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
@@ -10,6 +10,15 @@
         'dev' => true,
     ),
     'versions' => array(
+        'evilscott/junior' => array(
+            'pretty_version' => 'v1.1.3',
+            'version' => '1.1.3.0',
+            'reference' => '86449b4a61b3f8400c96b30522429c86427870ca',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../evilscott/junior',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'phphleb/debugpan' => array(
             'pretty_version' => 'v1.8',
             'version' => '1.8.0.0',
@@ -29,8 +38,8 @@
             'dev_requirement' => false,
         ),
         'phphleb/hleb' => array(
-            'pretty_version' => 'v1.6.69',
-            'version' => '1.6.69.0',
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
             'reference' => NULL,
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',

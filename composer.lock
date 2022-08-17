@@ -4,8 +4,60 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dd27717ca9e8b8b7f04cbaaa2cfd16ab",
+    "content-hash": "d6c23486fb6755769d31cd095be9ab4e",
     "packages": [
+        {
+            "name": "evilscott/junior",
+            "version": "v1.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/EvilScott/junior.git",
+                "reference": "86449b4a61b3f8400c96b30522429c86427870ca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/EvilScott/junior/zipball/86449b4a61b3f8400c96b30522429c86427870ca",
+                "reference": "86449b4a61b3f8400c96b30522429c86427870ca",
+                "shasum": ""
+            },
+            "require-dev": {
+                "jimbojsb/spray": "dev-master",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Junior": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Josh Butts",
+                    "email": "josh@joshbutts.com",
+                    "role": "developer"
+                },
+                {
+                    "name": "Chris Kite",
+                    "email": "chris@chriskite.com",
+                    "role": "developer"
+                },
+                {
+                    "name": "Scott Reis",
+                    "email": "reis.robert.s@gmail.com",
+                    "role": "lead developer"
+                }
+            ],
+            "description": "JSONRPC 2.0 Client and Server",
+            "support": {
+                "issues": "https://github.com/EvilScott/junior/issues",
+                "source": "https://github.com/EvilScott/junior/tree/v1.1.3"
+            },
+            "time": "2013-09-13T19:08:05+00:00"
+        },
         {
             "name": "phphleb/debugpan",
             "version": "v1.8",
